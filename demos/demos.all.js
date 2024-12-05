@@ -1,6 +1,6 @@
 
 // Import the jsonManager function
-const jsonManager = require('../index').jsonManager;
+const jsonManager = require('../index').jsonManager();
 
 // Write to the JSON object
 jsonManager.write("nest.secondnest.third.nest", 10);

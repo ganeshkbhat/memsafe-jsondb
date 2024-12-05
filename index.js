@@ -540,7 +540,11 @@ function createJsonManager() {
     };
 }
 
-// Example Usage:
-const jsonManager = createJsonManager();
+// // Example Usage:
+// const jsonManager = createJsonManager();
 
-module.exports = createJsonManager;
+module.exports = {
+    flattenJsonWithEscaping: flattenJsonWithEscaping,
+    unflattenJson: unflattenJson,
+    jsonManager: createJsonManager
+};
